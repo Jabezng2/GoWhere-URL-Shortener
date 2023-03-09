@@ -1,9 +1,9 @@
 const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-
+const charsLength = chars.length; //Cache the length of chars outside loop
 function generateShortUrl() {
     let shortUrl = '';
     for(let i = 0; i < 8; i++) {
-        shortUrl += chars[Math.floor(Math.random()*chars.length)];
+        shortUrl += chars[Math.floor(Math.random()*charsLength)];
     }
     return shortUrl;
 }
