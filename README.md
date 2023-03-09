@@ -5,3 +5,6 @@
 3. Run `npm run start` command in terminal
 4. Command will install dependencies and run both client and server applications
 5. If application does not open a browser, navigate using `localhost:3000`
+
+### Assumptions
+1. Assume that response is sho.rt/XXXXXXXX (randomly generated alphanumeric sequence of 8 elements)
